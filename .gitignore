@@ -1,0 +1,10 @@
+# Originele (zware) bronbestanden, niet mee naar GitHub Pages
+assets/_origineel/
+
+# Werkdocument met copy, niet publiceren
+CK_copy_v01.md
+
+# Systeembestanden
+Thumbs.db
+desktop.ini
+.DS_Store

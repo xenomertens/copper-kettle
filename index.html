@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Copper Kettle · Take a moment.</title>
+  <meta name="description" content="Thee voor de pauzes die je dag zachter maken. Ontdek de vier smaken van Copper Kettle.">
+  <meta name="theme-color" content="#2F6A4D">
+  <link rel="preload" href="assets/fonts/BodoniModa-VariableFont_opsz,wght.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/DMSans-VariableFont_opsz,wght.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="mailerlite.css">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#inhoud">Naar de inhoud</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="wordmark" href="#top">Copper Kettle</a>
+      <nav class="site-nav" aria-label="Hoofdmenu">
+        <ul class="site-nav__list" role="list">
+          <li><a href="#verhaal">Verhaal</a></li>
+          <li><a href="#smaken">Smaken</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li class="site-nav__cta"><a class="button button--small" href="#nieuwsbrief">Nieuwsbrief</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhoud">
+
+    <!-- 1. Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-titel">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1 id="hero-titel">Take a moment.</h1>
+          <p class="hero__sub">Thee voor de pauzes die je dag zachter maken.</p>
+          <div class="hero__actions">
+            <a class="button" href="#smaken">Ontdek de smaken</a>
+            <a class="button button--ghost" href="#nieuwsbrief">15% op je eerste doos</a>
+          </div>
+        </div>
+        <div class="hero__media">
+          <video class="hero__video"
+                 src="assets/video/ck-take-a-moment.mp4"
+                 poster="assets/video/ck-take-a-moment-poster.webp"
+                 width="720" height="1280"
+                 autoplay muted loop playsinline preload="metadata"
+                 aria-label="Korte video: een doosje Copper Kettle-thee op een houten tafel naast een dampende kop thee">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Verhaal -->
+    <section class="section story" id="verhaal" aria-labelledby="story-titel">
+      <div class="container story__inner" data-reveal>
+        <figure class="story__image">
+          <img src="assets/img/ck-alle-smaken.webp" width="1200" height="896" loading="lazy"
+               alt="De vier doosjes Copper Kettle-thee naast elkaar op een houten tafel in de ochtendzon, met een theepot, citroen, kamillebloemetjes, gember en bessen.">
+        </figure>
+        <div class="story__text">
+          <h2 id="story-titel">Een kopje, en even niks</h2>
+          <p>Je agenda staat vol, je telefoon blijft trillen. Wij maken thee voor het moment ertussen: de vijf minuten waarin je de ketel hoort zingen, je handen warmt aan je mok en even niets hoeft. Gewoon thee, en een moment voor jezelf.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Smaken -->
+    <section class="section flavours" id="smaken" aria-labelledby="smaken-titel">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <h2 id="smaken-titel"><span class="kern-v">V</span>ier smaken, vier momenten</h2>
+        </header>
+        <!-- TODO: "Bekijk"-links koppelen aan de productpagina's zodra die er zijn -->
+        <ul class="cards" role="list">
+          <li class="card" data-reveal>
+            <img class="card__img" src="assets/img/ck-rooibos.webp" width="1184" height="864" loading="lazy"
+                 alt="Doosje Rooibos &amp; Forest Berries op een houten tafel, met een dampende kop thee, frambozen en bosbessen.">
+            <div class="card__body">
+              <p class="card__moment">Ochtend</p>
+              <h3 class="card__title">Rooibos &amp; Forest Berries</h3>
+              <p class="card__taste">Vol en cafeïnevrij.</p>
+              <p class="card__text">Voor een zacht begin van je dag.</p>
+              <a class="card__link" href="#">Bekijk<span class="visually-hidden"> Rooibos &amp; Forest Berries</span></a>
+            </div>
+          </li>
+          <li class="card" data-reveal>
+            <img class="card__img" src="assets/img/ck-greentea.webp" width="1184" height="864" loading="lazy"
+                 alt="Doosje Green Tea &amp; Lemongrass naast een theezakje, met een glas groene thee, citroen en stengels citroengras.">
+            <div class="card__body">
+              <p class="card__moment">Middag</p>
+              <h3 class="card__title">Green Tea &amp; Lemongrass</h3>
+              <p class="card__taste">Fris en licht.</p>
+              <p class="card__text">Voor de middag waarop je hoofd even leeg mag.</p>
+              <a class="card__link" href="#">Bekijk<span class="visually-hidden"> Green Tea &amp; Lemongrass</span></a>
+            </div>
+          </li>
+          <li class="card" data-reveal>
+            <img class="card__img" src="assets/img/ck-ginger.webp" width="1184" height="864" loading="lazy"
+                 alt="Doosje Ginger &amp; Turmeric op een keukentafel, naast een dampende kop thee, verse gember en een schaaltje kurkuma.">
+            <div class="card__body">
+              <p class="card__moment">Koude namiddag</p>
+              <h3 class="card__title">Ginger &amp; Turmeric</h3>
+              <p class="card__taste">Warm en kruidig.</p>
+              <p class="card__text">Voor grijze dagen en koude handen.</p>
+              <a class="card__link" href="#">Bekijk<span class="visually-hidden"> Ginger &amp; Turmeric</span></a>
+            </div>
+          </li>
+          <li class="card" data-reveal>
+            <img class="card__img" src="assets/img/ck-chamomile.webp" width="1184" height="864" loading="lazy"
+                 alt="Doosje Chamomile &amp; Honey bij een open boek, met een kop thee, een potje honing en kamillebloemetjes.">
+            <div class="card__body">
+              <p class="card__moment">Avond</p>
+              <h3 class="card__title">Chamomile &amp; Honey</h3>
+              <p class="card__taste">Zacht en rond.</p>
+              <p class="card__text">Voor het laatste kopje van de avond.</p>
+              <a class="card__link" href="#">Bekijk<span class="visually-hidden"> Chamomile &amp; Honey</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. Waarom Copper Kettle -->
+    <section class="section why" aria-labelledby="why-titel">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <h2 id="why-titel"><span class="kern-w">W</span>aarom Copper Kettle</h2>
+        </header>
+        <ul class="why__list" role="list">
+          <li class="why__item" data-reveal>
+            <!-- icoon: theepot -->
+            <svg class="why__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M13 23h22v5a11 11 0 0 1-22 0z"/>
+              <path d="M16 23c0-4 3.5-6.5 8-6.5s8 2.5 8 6.5"/>
+              <circle cx="24" cy="14.5" r="1.6"/>
+              <path d="M13 26.5c-3.5-.5-6-3-7-6.5 3 .2 5.5 1.8 7 3.8"/>
+              <path d="M35 25.5c3.2-.4 5.5 1.6 5.5 4.3S38.2 34 35 33.4"/>
+              <path d="M17 42.5h14"/>
+            </svg>
+            <h3>Gemaakt voor je pauze</h3>
+            <p>Elke smaak hoort bij een moment van je dag.</p>
+          </li>
+          <li class="why__item" data-reveal>
+            <!-- icoon: waterketel -->
+            <svg class="why__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M10 39c0-10 5.5-17 14-17s14 7 14 17z"/>
+              <path d="M16 22c0-6 3.5-10 8-10s8 4 8 10"/>
+              <path d="M21 22h6"/>
+              <path d="M36.5 31c2.5-.8 4.5-3.2 5.5-6.5"/>
+              <path d="M8 39h32"/>
+              <path d="M22 6c-1 1.3 1 2.2 0 3.6M27 5c-1 1.3 1 2.2 0 3.6"/>
+            </svg>
+            <h3>Eenvoudig</h3>
+            <p>20 zakjes per doos, ketel op en klaar.</p>
+          </li>
+          <li class="why__item" data-reveal>
+            <!-- icoon: huisje -->
+            <svg class="why__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M7 23 24 9l17 14"/>
+              <path d="M12 19v20h24V19"/>
+              <path d="M21 39v-9h6v9"/>
+              <path d="M31 14V8.5h3.5v8.4"/>
+              <path d="M15.5 24h4v4h-4zM28.5 24h4v4h-4z"/>
+            </svg>
+            <h3>Huiselijk</h3>
+            <p>Kraftpapieren doosje, mooi genoeg om op tafel te laten staan.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Nieuwsbrief -->
+    <section class="section newsletter" id="nieuwsbrief" aria-labelledby="nieuwsbrief-titel">
+      <div class="container">
+        <div class="newsletter__panel" data-reveal>
+          <div class="newsletter__text">
+            <h2 id="nieuwsbrief-titel">Kom erbij aan tafel</h2>
+            <p>Schrijf je in voor onze nieuwsbrief en ontvang 15% op je eerste doos, plus af en toe een rustig berichtje met theetips en nieuwe smaken.</p>
+          </div>
+
+          <!-- ============================================================
+               MAILERLITE-FORMULIER (embed 48304479)
+               - CSS van MailerLite: mailerlite.css (ongewijzigd)
+               - Eigen stijl: style.css, sectie "MailerLite-formulier"
+               - Niet aanpassen: action-URL, name-attributen, verborgen
+                 velden (ml-submit, anticsrf) en de scripts onderaan.
+               - Eigen toevoegingen: zichtbare labels (+ id's op de inputs)
+                 en knoptekst "Schrijf me in".
+               ============================================================ -->
+          <div class="newsletter__form">
+            <div id="mlb2-48304479" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-48304479">
+              <div class="ml-form-align-center ">
+                <div class="ml-form-embedWrapper embedForm">
+
+                  <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+
+                    <div class="ml-form-embedContent" style=" ">
+                      <h4>Neem even een moment</h4>
+                      <p>Schrijf je in en krijg elke week een rustige pauze in je inbox: nieuwe smaken, kleine theerituelen en af en toe een cadeautje.</p>
+                    </div>
+
+                    <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2746917/forms/203663682769520180/subscribe" data-code="" method="post" target="_blank">
+                      <div class="ml-form-formContent">
+
+                        <div class="ml-form-fieldRow ">
+                          <div class="ml-field-group ml-field-name ml-validate-required">
+                            <label for="ml-48304479-name">Voornaam</label>
+                            <input id="ml-48304479-name" aria-label="name" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Je voornaam" autocomplete="given-name">
+                          </div>
+                        </div><div class="ml-form-fieldRow ">
+                          <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                            <label for="ml-48304479-email">E-mailadres</label>
+                            <input id="ml-48304479-email" aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Je e-mailadres" autocomplete="email">
+                          </div>
+                        </div><div class="ml-form-fieldRow ml-last-item">
+                          <div class="ml-field-group ml-field-opt_in ml-validate-required">
+                            <div class="custom-checkbox-radio-list">
+                              <div class="custom-control custom-checkbox">
+                                <input name="fields[opt_in][]" aria-label="opt_in" aria-required="true" class="custom-control-input" type="checkbox" value="Ja, ik ontvang graag de Copper Kettle-nieuwsbrief met theetips en aanbiedingen. Uitschrijven kan altijd." id="checkbox-48304479-23-0">
+                                <label class="custom-control-label" for="checkbox-48304479-23-0">
+                                  Ja, ik ontvang graag de Copper Kettle-nieuwsbrief met theetips en aanbiedingen. Uitschrijven kan altijd.
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <input type="hidden" name="ml-submit" value="1">
+
+                      <div class="ml-form-embedSubmit">
+                        <button type="submit" class="primary">Schrijf me in</button>
+                        <button disabled="disabled" style="display: none;" type="button" class="loading">
+                          <div class="ml-form-embedSubmitLoad"></div>
+                          <span class="sr-only">Loading...</span>
+                        </button>
+                      </div>
+
+                      <input type="hidden" name="anticsrf" value="true">
+                    </form>
+                  </div>
+
+                  <div class="ml-form-successBody row-success" style="display: none">
+                    <div class="ml-form-successContent">
+                      <h4>Fijn dat je er bent!</h4>
+                      <p>Kijk in je inbox, je eerste kopje staat klaar.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <script>
+              function ml_webform_success_48304479() {
+                var $ = ml_jQuery || jQuery;
+                $('.ml-subscribe-form-48304479 .row-success').show();
+                $('.ml-subscribe-form-48304479 .row-form').hide();
+              }
+            </script>
+            <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
+            <script>
+              fetch("https://assets.mailerlite.com/jsonp/2746917/forms/203663682769520180/takel")
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Veelgestelde vragen -->
+    <section class="section faq" id="faq" aria-labelledby="faq-titel">
+      <div class="container container--narrow">
+        <header class="section__head" data-reveal>
+          <h2 id="faq-titel"><span class="kern-v">V</span>eelgestelde vragen</h2>
+        </header>
+        <div class="faq__list" data-reveal>
+          <details class="faq__item">
+            <summary>Bevat de thee cafeïne?</summary>
+            <p>Rooibos &amp; Forest Berries, Chamomile &amp; Honey en Ginger &amp; Turmeric zijn kruidenthees. Green Tea &amp; Lemongrass bevat groene thee en dus cafeïne.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Hoeveel zakjes zitten er in een doos?</summary>
+            <p>20 zakjes.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Hoe lang laat ik trekken?</summary>
+            <p>Groene thee 2–3 minuten op ongeveer 80&nbsp;°C, de andere smaken 5 minuten met kokend water.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. Footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__tagline">Take a moment.</p>
+      <p class="wordmark wordmark--light">Copper Kettle</p>
+      <nav aria-label="Footer">
+        <ul class="site-footer__links" role="list">
+          <!-- TODO: echte Instagram-URL invullen -->
+          <li><a href="#" rel="noopener">Instagram</a></li>
+          <li><a href="#nieuwsbrief">Nieuwsbrief</a></li>
+          <!-- TODO: link naar privacyverklaring -->
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
